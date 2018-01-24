@@ -15,12 +15,12 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 
 group :development, :test do
-	gem 'sqlite3'
+     gem 'sqlite3'
 end
 
-group :production, :test do
-	gem 'pg'
-	gem 'rails_12factor'
+group :production do
+     gem 'pg'
+     gem 'rails_12factor'
 end
 
 group :development, :test do
